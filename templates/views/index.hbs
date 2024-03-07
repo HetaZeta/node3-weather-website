@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+    <title>{{title}}</title>
+    <link rel="icon" href="/img/cropped-GCT-favicon.png">
+    <link rel="stylesheet" href="/css/styles.css">
+    
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <p>This is your place to get the weather</p>
+
+        <form>
+            <input placeholder="location">
+            <button>search</button>
+        </form>
+
+        <p id="message-1"></p>
+        <p id="message-2"></p>
+    </div>
+    {{>footer}}
+    <script src="/js/app.js"></script>
+</body>
+    
+    
+</html>
+
